@@ -260,3 +260,5 @@ paket-files/
 __pycache__/
 *.pyc
 /Web/Properties/PublishProfiles/FolderProfile.pubxml
+.vscode/launch.json
+.vscode/tasks.json
