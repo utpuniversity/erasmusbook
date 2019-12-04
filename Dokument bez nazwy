@@ -1,0 +1,71 @@
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+
+     <title>
+	ErasmusBook</title>
+  </head>
+
+   <body >
+<style>
+.row.top-buffer { margin-top:40px; }	
+body,html{
+			height: 100%;
+			margin: 0;
+			background: rgb(255, 255, 255);
+	       background: -webkit-linear-gradient(to right, rgb(255, 255, 255), rgb(63, 226, 204), rgb(17, 134, 189));
+	        background: linear-gradient(to right, rgb(255, 255, 255), rgb(63, 226, 204), rgb(17, 134, 189));
+		}
+</style>
+<img src="icon.png" class ="cropper" alt".."
+>
+
+<table class="table table-striped">
+
+</text><nav.h1 aria-label="Page navigation example">
+
+  <ul class="pagination justify-content-center">
+
+  <text"><h1> ErasmusBook</h1>
+<div id="alert" style="display:none;" class="alert alert-primary" role="alert">
+  Email or password not valid!
+</div>
+  <div class="input-group flex-nowrap">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="addon-wrapping"><h5>@</h5></span>
+  </div>
+
+  <input id="username" type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+</div>
+
+<div class="input-group flex-nowrap">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="addon-wrapping"><h5>password</h5></span>
+  </div>
+  <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">
+</div>
+<button type="button" class="btn btn-outline-primary btn-lg" onclick="check();">Sign in</button>
+<button type="button" class="btn btn-outline-primary btn-lg">Sign</button>
+   
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js" integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous"></script>
+      
+<script>
+function check()
+{
+	if($('#username').val()=='') $('#alert').show();
+	else $('#alert').hide();
+}
+
+</script>
+
+</body>
+</html> 
