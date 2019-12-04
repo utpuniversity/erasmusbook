@@ -1,0 +1,37 @@
+﻿@{
+    ViewData["Title"] = "Map Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+
+<div class="card">
+  <div class="card-body">
+    <div id="map" style="height: 600px; width: width=100%;"></div>
+        <script>
+            var map;
+            function initMap() {
+                map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: 53.143293, lng: 18.130593},
+                zoom: 15
+                });
+                var markerPos = {lat: 53.143293, lng: 18.130593};
+                var marker = new google.maps.Marker({position: markerPos, map: map});
+                
+                var markerPos = {lat: 53.141558, lng: 18.135168};
+                var marker = new google.maps.Marker({position: markerPos, map: map});
+
+            }
+        </script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSJqrdb5Kj7TjvTs10fRTv1W30dXWj-VY&callback=initMap" async defer></script>
+    
+
+        </div>
+        </div>
+       
+    </div>    
+  </div>
+
