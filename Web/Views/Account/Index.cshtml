@@ -1,0 +1,56 @@
+﻿@using System.Linq
+@{
+    ViewData["Title"] = "Index";
+}
+
+<style>
+    .row.top-buffer {
+        margin-top: 40px;
+    }
+
+    body, html {
+        height: 100%;
+        margin: 0;
+        background: rgb(255, 255, 255);
+        background: -webkit-linear-gradient(to right, rgb(255, 255, 255), rgb(63, 226, 204), rgb(17, 134, 189));
+        background: linear-gradient(to right, rgb(255, 255, 255), rgb(63, 226, 204), rgb(17, 134, 189));
+    }
+</style>
+<p><center>  <h1><span style="color: rgba(27, 100, 25, 0.959); font-size: 80px; font-family: Verdana, Geneva, 	sans-serif;">WELCOME</span></h1></center></p>
+
+
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th scope="col">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Dropdown button
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Events</a>
+                        <a class="dropdown-item" href="#">Main Places</a>
+                        <a class="dropdown-item" href="#">Student Promotions</a>
+                    </div>
+                </div>
+
+            </th>
+            <th scope="col">
+                <nav class="navbar navbar-light bg-light">
+                    <form class="form-inline">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </nav>
+            </th>
+        </tr>
+    </thead>
+</table>
+
+
+<img src="icon.png" class="rounded mx-auto d-block" alt="...">
+
+
+
